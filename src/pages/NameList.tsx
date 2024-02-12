@@ -6,6 +6,9 @@ import {
   CardContent,
   Grid,
   Typography,
+  Button,
+  Stack,
+  Box,
 } from "@mui/material";
 import { grey, brown, purple } from "@mui/material/colors";
 import FullName from "models/FullName";
@@ -61,9 +64,17 @@ function NameList({ names, surnames }: INameListProps): JSX.Element {
   );
 
   return (
-    <Grid container spacing={2}>
-      {fullNames.map(renderCard)}
-    </Grid>
+    <Box margin={3} padding={2}>
+      <Stack marginBottom={4} direction="row" justifyContent="space-between">
+        <Typography variant="h4">Gerador de nomes de Infinitta</Typography>
+        <Button variant="contained" onClick={generateNames}>
+          Gerar
+        </Button>
+      </Stack>
+      <Grid container spacing={2}>
+        {fullNames.map(renderCard)}
+      </Grid>
+    </Box>
   );
 }
 
