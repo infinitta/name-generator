@@ -55,7 +55,11 @@ function NameList({ names, surnames }: INameListProps): JSX.Element {
           title={info.value}
         />
         <CardContent>
-          <Typography variant="body2" color="text.secondary">
+          <Typography
+            variant="body2"
+            color="text.secondary"
+            whiteSpace="break-spaces"
+          >
             {info.description}
           </Typography>
         </CardContent>
