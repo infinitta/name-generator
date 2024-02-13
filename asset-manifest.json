@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/name-generator/static/css/main.9bc34ba7.css",
-    "main.js": "/name-generator/static/js/main.81dea510.js",
+    "main.js": "/name-generator/static/js/main.f7b37085.js",
     "static/media/barlow-latin-700-normal.woff2": "/name-generator/static/media/barlow-latin-700-normal.dd5b2912dbf896310865.woff2",
     "static/media/barlow-latin-400-normal.woff2": "/name-generator/static/media/barlow-latin-400-normal.7fa387951673abf164b1.woff2",
     "static/media/barlow-latin-300-normal.woff2": "/name-generator/static/media/barlow-latin-300-normal.b9b1aa739c660c4ce67c.woff2",
@@ -28,10 +28,10 @@
     "static/media/barlow-vietnamese-300-normal.woff": "/name-generator/static/media/barlow-vietnamese-300-normal.78266f551031aa9db127.woff",
     "index.html": "/name-generator/index.html",
     "main.9bc34ba7.css.map": "/name-generator/static/css/main.9bc34ba7.css.map",
-    "main.81dea510.js.map": "/name-generator/static/js/main.81dea510.js.map"
+    "main.f7b37085.js.map": "/name-generator/static/js/main.f7b37085.js.map"
   },
   "entrypoints": [
     "static/css/main.9bc34ba7.css",
-    "static/js/main.81dea510.js"
+    "static/js/main.f7b37085.js"
   ]
 }
