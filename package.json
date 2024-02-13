@@ -1,6 +1,6 @@
 {
   "name": "infinittan-name-generator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://infinitta.github.io/name-generator",
   "private": true,
   "dependencies": {

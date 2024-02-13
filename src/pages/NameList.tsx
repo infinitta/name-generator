@@ -33,6 +33,7 @@ function NameList({ names, surnames }: INameListProps): JSX.Element {
   };
 
   const generateNames = useCallback(() => {
+    window.scrollTo(0, 0);
     setFullNames(generate());
   }, [generate]);
 
@@ -78,6 +79,15 @@ function NameList({ names, surnames }: INameListProps): JSX.Element {
       <Grid container spacing={2}>
         {fullNames.map(renderCard)}
       </Grid>
+      <Stack
+        width={{ xs: "100%", md: "50%", lg: "25%" }}
+        marginTop={4}
+        direction="row"
+      >
+        <Button variant="contained" onClick={generateNames} fullWidth>
+          Gerar
+        </Button>
+      </Stack>
     </Box>
   );
 }
